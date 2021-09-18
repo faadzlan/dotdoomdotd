@@ -34,6 +34,9 @@
 ;; change `org-directory'. It must be set before org loads!
 (setq org-directory "~/Documents/org")
 
+;; Set org-journal-date-format
+(setq org-journal-date-format "%A, %Y-%m-%d")
+
 ;; This determines the style of line numbers in effect. If set to `nil', line
 ;; numbers are disabled. For relative line numbers, set this to `relative'.
 (setq display-line-numbers-type 'relative)
