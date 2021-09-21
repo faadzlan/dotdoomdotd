@@ -38,6 +38,10 @@
 (setq org-journal-date-format "%A, %Y-%m-%d"
       org-journal-file-format "%Y-%m-%d.org")
 
+(after! org
+  (setq org-agenda-files '("~/Documents/org" "/mnt/c/Users/alan_/OneDrive\ -\ UNIMAS"))
+)
+
 ;; This determines the style of line numbers in effect. If set to `nil', line
 ;; numbers are disabled. For relative line numbers, set this to `relative'.
 (setq display-line-numbers-type 'relative)
