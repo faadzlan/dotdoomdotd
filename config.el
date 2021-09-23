@@ -23,6 +23,7 @@
 ;;       doom-variable-pitch-font (font-spec :family "sans" :size 13))
 (setq doom-font (font-spec :family "SauceCodePro Nerd Font" :size 15)
       doom-variable-pitch-font (font-spec :family "SauceCodePro Nerd Font" :size 15)
+      projectile-project-search-path '("~/Documents" "/mnt/c/Users/alan_" "~/Documents/roam")
 )
 
 ;; There are two ways to load a theme. Both assume the theme is installed and
@@ -39,9 +40,10 @@
       org-journal-file-format "%Y-%m-%d.org")
 
 (after! org
-  (setq org-agenda-files '("~/Documents/org" "/mnt/c/Users/alan_/OneDrive\ -\ UNIMAS"))
+  (setq org-agenda-files '("/mnt/c/Users/alan_/Dropbox/org"))
 )
 
+(setq org-roam-directory "~/Documents/roam")
 ;; This determines the style of line numbers in effect. If set to `nil', line
 ;; numbers are disabled. For relative line numbers, set this to `relative'.
 (setq display-line-numbers-type 'relative)
