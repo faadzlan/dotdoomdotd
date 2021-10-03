@@ -23,7 +23,7 @@
 ;;       doom-variable-pitch-font (font-spec :family "sans" :size 13))
 (setq doom-font (font-spec :family "SauceCodePro Nerd Font" :size 15)
       doom-variable-pitch-font (font-spec :family "SauceCodePro Nerd Font" :size 15)
-      projectile-project-search-path '("~/Documents" "/mnt/c/Users/alan_" "~/Documents/roam")
+      projectile-project-search-path '("~/Documents" "/mnt/c/Users/alan_" "~/Documents/roam" "/mnt/c/Users/alan_/Dropbox/org" )
 )
 
 ;; There are two ways to load a theme. Both assume the theme is installed and
@@ -59,6 +59,15 @@
 ;;   `require' or `use-package'.
 ;; - `map!' for binding new keys
 (map! :nv ";" #'evil-ex)
+
+;; Load vimrc-mode
+(require 'vimrc-mode)
+(add-to-list 'auto-mode-alist '("\\.vim\\(rc\\)?\\'" . vimrc-mode))
+
+;; Load calfw and calfw-org
+(require 'calfw)
+(require 'calfw-org)
+(setq cfw:display-calendar-holidays nil)
 
 ;; To get information about any of these functions/macros, move the cursor over
 ;; the highlighted symbol at press 'K' (non-evil users must press 'C-c c k').
