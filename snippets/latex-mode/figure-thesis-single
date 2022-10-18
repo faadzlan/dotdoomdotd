@@ -1,0 +1,10 @@
+# key: figsing
+# name: figure-thesis-single
+# --
+\begin{figure}[!h]
+  \centering
+  \hspace{1cm} \includegraphics[width=0.7\textwidth]{figs/${1:figureFile}
+  \caption{${2:figureCaption}}
+  \label{fig:${3:figureLabel}}
+\end{figure}
+$0

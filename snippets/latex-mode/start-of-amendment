@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: start-of-amendment
+# key: ams
+# --
+%%Chapter ${1:Chapter No.}-${2:Examiner}<<

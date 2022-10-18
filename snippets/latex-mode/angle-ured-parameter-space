@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: angle-ured-parameter-space
+# key: angured
+# --
+$\alpha \; (\si{\degree})-\ured$

@@ -1,0 +1,20 @@
+# key: figsub
+# name: thesis-subfigure
+# --
+\begin{figure}[!h]
+  \centering
+  \begin{subfigure}[h]{0.95\textwidth}
+    \includegraphics[width=\textwidth]{figs/${1:figureName}}
+    \caption{}
+    \label{fig:${2:figureLabel}}
+  \end{subfigure}
+
+  \begin{subfigure}[h]{1\textwidth}
+    \includegraphics[width=\textwidth]{figs/${3:figureName}}
+    \caption{}
+    \label{fig:${4:figureLabel}}
+  \end{subfigure}
+
+  \caption{${5:figureCaption}} \label{${6:figureLabel}}
+\end{figure}
+  $0

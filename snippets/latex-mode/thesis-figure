@@ -1,0 +1,10 @@
+# key: figsing
+# name: thesis-figure
+# --
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{figs/${1:figureFile}}
+  \caption{${2:figureCaption}}
+  \label{fig:${3:figureLabel}}
+\end{figure}
+$0

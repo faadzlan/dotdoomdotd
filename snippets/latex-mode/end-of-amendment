@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: end-of-amendment
+# key: ame
+# --
+%%Chapter ${1:Chapter No.}-${2:Examiner}>>

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: table-padding
+# key: tabpad
+# --
+\setlength{\tabcolsep}{10pt}      % This is the table column padding. Default value: 6pt
+\renewcommand{\arraystretch}{1.5} % This is the table row padding. Default value: 1

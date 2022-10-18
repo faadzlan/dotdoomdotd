@@ -11,6 +11,8 @@
 
 ;; vimrc-mode - Major mode for vimrc files
 (package! vimrc-mode)
+;; ahk-mode - Major mode for autohotkey files
+(package! ahk-mode)
 ;; calfw - Calendar view from within org-agenda
 (package! calfw)
 (package! calfw-org)

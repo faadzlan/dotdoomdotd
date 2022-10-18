@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: c-total
+# key: ctot
+# --
+c_{\text{tot.}}

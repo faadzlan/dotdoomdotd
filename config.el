@@ -60,6 +60,17 @@
 ;; - `map!' for binding new keys
 (map! :nv ";" #'evil-ex)
 
+;; Compile LaTeX document and view
+(map! :leader
+      :desc "LaTeX compile and view"
+      "l" #'TeX-command-run-all)
+
+;; Save buffer using right-hand key combo.
+(map! :leader
+      (:prefix ("j" . "Right-hand combo")
+      :desc "Save buffer"
+      "l" #'save-buffer))
+
 ;; Load vimrc-mode
 (require 'vimrc-mode)
 (add-to-list 'auto-mode-alist '("\\.vim\\(rc\\)?\\'" . vimrc-mode))
@@ -75,3 +86,7 @@
 ;;
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
+
+(add-hook 'evil-insert-state-exit-hook
+          (lambda ()
+            (call-interactively #'save-buffer)))

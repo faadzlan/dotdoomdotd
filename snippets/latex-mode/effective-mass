@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: effective-mass
+# key: meff
+# --
+m_{\text{eff.}}

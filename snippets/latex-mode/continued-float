@@ -1,0 +1,32 @@
+# -*- mode: snippet -*-
+# name: continued-float
+# key: contfloat
+# --
+\begin{figure}
+  \centering
+  \begin{subfigure}[h]{0.95\textwidth}
+    \includegraphics[width=\textwidth]{figs/${1:figureName}}
+    \caption{}
+    \label{fig:${2:subfigureLabel}}
+  \end{subfigure}
+
+  \begin{subfigure}[h]{1\textwidth}
+    \includegraphics[width=\textwidth]{figs/${3:figureName}}
+    \caption{}
+    \label{fig:${4:subfigureLabel}}
+  \end{subfigure}
+
+  \caption{${5:figureCaption}}
+\end{figure}
+
+\begin{figure} \continuedfloat
+  \centering
+  \begin{subfigure}[h]{0.98\textwidth}
+    \includegraphics[width=\textwidth]{figs/${6:figureName}}
+    \caption{}
+    \label{fig:${7:figureLabel}}
+  \end{subfigure}
+
+  \caption{$5} \label{fig:${8:figureLabel}}
+\end{figure}
+$0
