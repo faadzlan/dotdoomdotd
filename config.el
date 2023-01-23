@@ -7,7 +7,7 @@
 ;; Some functionality uses this to identify you, e.g. GPG configuration, email
 ;; clients, file templates and snippets.
 (setq user-full-name "Ahmad Adzlan Fadzli Bin Khairi"
-      user-mail-address "yamaguchi.adzlan@gmail.com")
+      user-mail-address "kaafadzli@unimas.my")
 
 ;; Doom exposes five (optional) variables for controlling fonts in Doom. Here
 ;; are the three important ones:
@@ -23,7 +23,8 @@
 ;;       doom-variable-pitch-font (font-spec :family "sans" :size 13))
 (setq doom-font (font-spec :family "SauceCodePro Nerd Font" :size 15)
       doom-variable-pitch-font (font-spec :family "SauceCodePro Nerd Font" :size 15)
-      projectile-project-search-path '("~/Documents" "/mnt/c/Users/alan_" "~/Documents/roam" "/mnt/c/Users/alan_/Dropbox/org" )
+      ;; projectile-project-search-path '("~/Documents" "/mnt/c/Users/alan_" "~/Documents/roam" "/mnt/c/Users/alan_/Dropbox/org" )
+      projectile-project-search-path '("~/Documents" "~/Dropbox")
 )
 
 ;; There are two ways to load a theme. Both assume the theme is installed and
@@ -33,17 +34,17 @@
 
 ;; If you use `org' and don't want your org files in the default location below,
 ;; change `org-directory'. It must be set before org loads!
-(setq org-directory "~/Documents/org")
+(setq org-directory "~/Dropbox/org")
 
 ;; Set org-journal-date-format
 (setq org-journal-date-format "%A, %Y-%m-%d"
       org-journal-file-format "%Y-%m-%d.org")
 
 (after! org
-  (setq org-agenda-files '("/mnt/c/Users/alan_/Dropbox/org"))
+  (setq org-agenda-files '( "~/Dropbox/org"))
 )
 
-(setq org-roam-directory "~/Documents/roam")
+(setq org-roam-directory "~/Dropbox/roam")
 ;; This determines the style of line numbers in effect. If set to `nil', line
 ;; numbers are disabled. For relative line numbers, set this to `relative'.
 (setq display-line-numbers-type 'relative)
