@@ -23,12 +23,9 @@
 ;;       doom-variable-pitch-font (font-spec :family "sans" :size 13))
 (setq doom-font (font-spec :family "SauceCodePro Nerd Font" :size 15)
       doom-variable-pitch-font (font-spec :family "SauceCodePro Nerd Font" :size 15)
-<<<<<<< HEAD
       ;; projectile-project-search-path '("~/Documents" "/mnt/c/Users/alan_" "~/Documents/roam" "/mnt/c/Users/alan_/Dropbox/org" )
       projectile-project-search-path '("~/Documents" "~/Dropbox")
 )
-=======
->>>>>>> 341caafaa5ecdb75e6cd10f55f7d2651238ab9b3
 
 ;; There are two ways to load a theme. Both assume the theme is installed and
 ;; available. You can either set `doom-theme' or manually load a theme with the
