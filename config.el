@@ -91,3 +91,6 @@
 (add-hook 'evil-insert-state-exit-hook
           (lambda ()
             (call-interactively #'save-buffer)))
+
+;; Set fancy splash screen image.
+(setq fancy-splash-image (concat doom-user-dir "doom-splash.png"))
