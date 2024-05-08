@@ -2,93 +2,58 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("peltonTurbineSlides"
- (filename . "/mnt/c/Users/Lenovo/OneDrive - UNIMAS/Teaching/2023_2024_1/KNJ3531/peltonTurbine/slides/peltonTurbine.tex")
- (front-context-string . "\\documentclass{b")
- (rear-context-string)
- (position . 1))
-("osborneReynoldsSlides"
- (filename . "/mnt/c/Users/Lenovo/OneDrive - UNIMAS/Teaching/2023_2024_1/KNJ3531/osbourneReynolds/slides/osborneReynoldsSlides.tex")
- (front-context-string . "\\documentclass{b")
- (rear-context-string)
- (position . 1))
-("KNU1013-week3-slides"
- (filename . "/mnt/c/Users/Lenovo/OneDrive - UNIMAS/Teaching/2023_2024_1/KNU1013/week3/week3.tex")
- (front-context-string . "\\documentclass{b")
- (rear-context-string)
- (position . 1))
-("KNU1013"
- (filename . "/mnt/c/Users/Lenovo/OneDrive - UNIMAS/Teaching/2023_2024_1/KNU1013/")
+(("KNU1013"
+ (filename . "/mnt/c/Users/faadz/OneDrive - UNIMAS/Teaching/2023_2024_1/KNU1013/")
  (front-context-string . "GTMasterplan\n  d")
  (rear-context-string . "12 Oct 18 00:03 ")
  (position . 169))
-("KNJ1033-2324-1"
- (filename . "/mnt/c/Users/Lenovo/OneDrive - UNIMAS/Teaching/2023_2024_1/KNJ1033/")
- (front-context-string . "Cengel_Thermodyn")
- (rear-context-string . "12 Apr 16 21:38 ")
- (position . 169))
 ("2023_2024_1"
- (filename . "/mnt/c/Users/Lenovo/OneDrive - UNIMAS/Teaching/2023_2024_1/")
+ (filename . "/mnt/c/Users/faadz/OneDrive - UNIMAS/Teaching/2023_2024_1/")
  (front-context-string . "KNF3065\n  drwxrw")
  (rear-context-string . "12 Oct  2 09:55 ")
  (position . 161))
 ("Teaching"
- (filename . "/mnt/c/Users/Lenovo/OneDrive - UNIMAS/Teaching/")
+ (filename . "/mnt/c/Users/faadz/OneDrive - UNIMAS/Teaching/")
  (front-context-string . "2020_2021_2\n  dr")
  (rear-context-string . "12 Apr 16 21:38 ")
  (position . 147))
 ("RIECCommunications"
- (filename . "/mnt/c/Users/Lenovo/OneDrive - UNIMAS/RIEC/communications.org")
+ (filename . "/mnt/c/Users/faadz/OneDrive - UNIMAS/RIEC/communications.org")
  (front-context-string . "#+title: Communi")
  (rear-context-string)
  (position . 1))
-("grantsEndedJKTSPI-141"
- (filename . "/mnt/c/Users/Lenovo/OneDrive - UNIMAS/Summary Report MyGRANTS_PTJ/grantEnded-KPIsAchieved.org")
- (front-context-string . "F07/FRGS/1608/20")
- (rear-context-string)
- (position . 1))
-("MentorGrant"
- (filename . "/mnt/c/Users/Lenovo/OneDrive - UNIMAS/Research/2023_2024_1/mentorGrant.org")
- (front-context-string . "#+title: Mentor ")
- (rear-context-string)
- (position . 1))
 ("Research"
- (filename . "/mnt/c/Users/Lenovo/OneDrive - UNIMAS/Research/")
+ (filename . "/mnt/c/Users/faadz/OneDrive - UNIMAS/Research/")
  (front-context-string . "2022_2023_1\n  dr")
  (rear-context-string . "12 Apr 16 21:39 ")
  (position . 145))
 ("OneDriveUNIMAS"
- (filename . "/mnt/c/Users/Lenovo/OneDrive - UNIMAS/")
+ (filename . "/mnt/c/Users/faadz/OneDrive - UNIMAS/")
  (front-context-string . ".Trash-1000\n  dr")
  (rear-context-string . "12 Apr 16 21:39 ")
  (position . 140))
-("MyGRANTS-Notes"
- (filename . "/mnt/c/Users/Lenovo/OneDrive - UNIMAS/RIEC/MyGrants2023/myGrants2023.org")
- (front-context-string . "Chew Keng Sheng\n")
- (rear-context-string . "August 2023\n\n1) ")
- (position . 7346))
 ("RIECComments"
- (filename . "/mnt/c/Users/Lenovo/OneDrive - UNIMAS/RIEC/draftsRIEC.org")
+ (filename . "/mnt/c/Users/faadz/OneDrive - UNIMAS/RIEC/draftsRIEC.org")
  (front-context-string . "The timeline rev")
  (rear-context-string . "meline Revision\n")
  (position . 8437))
 ("GRADUATESComment"
- (filename . "/mnt/c/Users/Lenovo/OneDrive - UNIMAS/RIEC/GRADUATES/graduatesComment.org")
+ (filename . "/mnt/c/Users/faadz/OneDrive - UNIMAS/RIEC/GRADUATES/graduatesComment.org")
  (front-context-string . "#+title: Graduat")
  (rear-context-string)
  (position . 1))
 ("GRADUATES"
- (filename . "/mnt/c/Users/Lenovo/OneDrive - UNIMAS/RIEC/GRADUATES/")
+ (filename . "/mnt/c/Users/faadz/OneDrive - UNIMAS/RIEC/GRADUATES/")
  (front-context-string . "extension\n  -rwx")
  (rear-context-string . "12 Jun  8 15:57 ")
  (position . 154))
 ("RIEC"
- (filename . "/mnt/c/Users/Lenovo/OneDrive - UNIMAS/RIEC/")
+ (filename . "/mnt/c/Users/faadz/OneDrive - UNIMAS/RIEC/")
  (front-context-string . "FRGS2023-1\n  drw")
  (rear-context-string . "12 Apr 16 21:39 ")
  (position . 144))
 ("WindowsHome"
- (filename . "/mnt/c/Users/Lenovo/")
+ (filename . "/mnt/c/Users/faadz/")
  (front-context-string . ".ms-ad\n  drwxrwx")
  (rear-context-string . "12 Jun  6 12:26 ")
  (position . 121))
